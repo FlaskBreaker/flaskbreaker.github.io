@@ -1,6 +1,6 @@
 timezone: Europe/Madrid
 encoding: utf-8
-permalink: /:month-:day-:year/:title.html
+permalink: /:day-:month-:year/:title.html
 defaults:
     -
      scope:
