@@ -1,2 +1,25 @@
 timezone: Europe/Madrid
 encoding: utf-8
+permalink: /:month-:day-:year/:title.html
+defaults:
+    -
+     scope:
+          path: ""
+          type: "post"
+     values:
+          layout: "postDefault"
+          author: "FlaskBreaker"
+    -
+     scope:
+          path: ""
+          type: "draft"
+     values:
+          layout: "draftDefault"
+          author: "FlaskBreaker"
+    -
+     scope:
+          path: ""
+          type: "page"
+     values:
+          layout: "pageDefault"
+          author: "FlaskBreaker"
